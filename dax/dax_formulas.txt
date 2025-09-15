@@ -1,0 +1,159 @@
+# 📄 dax_formulas.txt — Diabetes Analysis  
+
+This document contains all **DAX Measures** and **Calculated Columns** used in the NHANES Diabetes Analysis Power BI Dashboard.  
+The measures support KPIs, charts, and insights related to demographics, diabetes prevalence, BMI, and clinical indicators.  
+
+---
+
+## 📊 Measures Used in Visuals  
+
+```DAX
+-- Average age of participants with diabetes
+Average Age (Diabetes) = 
+CALCULATE(
+    AVERAGE(diabetes_analysis[Age_Imputed]),
+    diabetes_analysis[Diabetes_Status] = "Diabetes"
+)
+
+-- Total participants
+Total Participants = COUNTROWS(diabetes_analysis)
+
+-- Count of participants with diabetes
+With Diabetes = 
+CALCULATE(
+    COUNTROWS(diabetes_analysis),
+    diabetes_analysis[Diabetes_Status] = "Diabetes"
+)
+
+-- % of participants with diabetes
+% Patients with Diabetes = 
+DIVIDE([With Diabetes], [Total Participants])
+
+-- Weight categories (percentages)
+Over weight % = 
+DIVIDE(
+    CALCULATE(
+        COUNTROWS(diabetes_analysis),
+        diabetes_analysis[BMI Category] = "Over weight"
+    ),
+    COUNTROWS(diabetes_analysis),
+    0
+)
+
+Obese % = 
+DIVIDE(
+    CALCULATE(
+        COUNTROWS(diabetes_analysis),
+        diabetes_analysis[BMI Category] = "Obese"
+    ),
+    COUNTROWS(diabetes_analysis),
+    0
+)
+
+Normal Weight % = 
+DIVIDE(
+    CALCULATE(
+        COUNTROWS(diabetes_analysis),
+        diabetes_analysis[BMI Category] = "Normal weight"
+    ),
+    COUNTROWS(diabetes_analysis),
+    0
+)
+
+Under weight % = 
+DIVIDE(
+    CALCULATE(
+        COUNTROWS(diabetes_analysis),
+        diabetes_analysis[BMI Category] = "Under weight"
+    ),
+    COUNTROWS(diabetes_analysis),
+    0
+)
+
+-- Average BMI and Glucose
+Avg BMI = AVERAGE(diabetes_analysis[BMI_Imputed])
+Avg Glucose = AVERAGE(diabetes_analysis[Glucose_Imputed])
+
+-- % breakdown by diabetes status
+% of Diabetes_Status = 
+DIVIDE(
+    COUNTROWS(diabetes_analysis),
+    CALCULATE(COUNTROWS(diabetes_analysis), ALL(diabetes_analysis[Diabetes_Status]))
+)
+
+
+
+## ✅ DAX Formulas Unused in Visuals
+
+-- Gender distribution
+% Female = 
+DIVIDE(
+    COUNTROWS(FILTER(diabetes_analysis, diabetes_analysis[Gender] = "Female")),
+    COUNTROWS(diabetes_analysis),
+    0
+)
+
+% Male = 
+DIVIDE(
+    COUNTROWS(FILTER(diabetes_analysis, diabetes_analysis[Gender] = "Male")),
+    COUNTROWS(diabetes_analysis),
+    0
+)
+
+-- Participants without diabetes
+Without Diabetes = 
+CALCULATE(
+    COUNTROWS(diabetes_analysis),
+    diabetes_analysis[Diabetes_Status] = "Non_Diabetes"
+)
+
+% Patients without Diabetes = 
+DIVIDE([Without Diabetes], [Total Participants])
+
+-- Lab measures
+Avg HDL = AVERAGE(diabetes_analysis[HDL_Imputed])
+Avg Triglycerides = AVERAGE(diabetes_analysis[Triglycerides_Imputed])
+
+
+
+
+## ✅ Calculated Column Unused in Visuals
+
+-- Age bins
+Age Bin = 
+SWITCH(
+    TRUE(),
+    diabetes_analysis[Age] >= 0 && diabetes_analysis[Age] <= 20, "0-20",
+    diabetes_analysis[Age] >= 21 && diabetes_analysis[Age] <= 40, "21-40",
+    diabetes_analysis[Age] >= 41 && diabetes_analysis[Age] <= 60, "41-60",
+    diabetes_analysis[Age] > 60, "60+",
+    BLANK()
+)
+
+-- BMI categories
+BMI Category = 
+SWITCH(
+    TRUE(),
+    diabetes_analysis[BMI_Imputed] < 18.5, "Under weight",
+    diabetes_analysis[BMI_Imputed] < 25, "Normal weight",
+    diabetes_analysis[BMI_Imputed] < 30, "Over weight",
+    "Obese"
+)
+
+-- Race short labels
+Race Short = 
+SWITCH(
+    diabetes_analysis[Race],
+    "Non-Hispanic White", "NH White",
+    "Non-Hispanic Black", "NH Black",
+    "Mexican American", "Mex-Am",
+    "Other Hispanic", "Oth Hisp",
+    "Other Race - Including Multi-Racial", "Other/Multi",
+    diabetes_analysis[Race]
+)
+
+
+
+─────────────────────────────
+✅ End of DAX Formulas
+─────────────────────────────
