@@ -640,7 +640,7 @@ Each report page is designed to make the data story clear and easy to explore.
 
 | Diabetes Overview | Demographic Insights | Clinical Indicators |
 |-------------------|-----------------------|----------------------|
-| ![Diabetes Overview](https://github.com/rotimi2020/Data-Analyst-Portfolio/blob/main/diabetes_analysis/report_screenshots/diabetes_overview.png) | ![Demographic Insights](https://github.com/rotimi2020/Data-Analyst-Portfolio/blob/main/diabetes_analysis/report_screenshots/demographic_insights.png) | ![Clinical Indicators](https://github.com/rotimi2020/Data-Analyst-Portfolio/blob/main/diabetes_analysis/report_screenshots/clinical_indicators.png) |
+| ![Diabetes Overview](https://https://github.com/rotimi2020/nhanes-diabetes-analysis-prediction/tree/main/report_screenshots/diabetes_overview.png) | ![Demographic Insights](https://https://github.com/rotimi2020/nhanes-diabetes-analysis-prediction/tree/main/report_screenshots/demographic_insights.png) | ![Clinical Indicators](https://https://github.com/rotimi2020/nhanes-diabetes-analysis-prediction/tree/main/report_screenshots/clinical_indicators.png) |
 
 
 ---
