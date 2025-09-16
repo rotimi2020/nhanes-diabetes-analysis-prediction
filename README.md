@@ -217,7 +217,7 @@ Each section demonstrates real-world data analysis steps, from cleaning to visua
 
 | Descriptive Analysis | Pivot Table | Dashboard |
 |-------------------|-----------------------|----------------------|
-| ![Descriptive Analysis](https://github.com/rotimi2020/nhanes-diabetes-analysis-prediction/tree/main/excel_project/report_screenshot/descriptive_analysis.PNG) | ![Pivot Table](https://github.com/rotimi2020/nhanes-diabetes-analysis-prediction/tree/main/excel_project/report_screenshot/pivot_table.png) | ![Dashboard](https://github.com/rotimi2020/nhanes-diabetes-analysis-prediction/tree/main/excel_project/report_screenshot/dashboard.PNG) |
+| ![Descriptive Analysis](https://github.com/rotimi2020/nhanes-diabetes-analysis-prediction/blob/main/excel_project/report_screenshot/descriptive_analysis.PNG) | ![Pivot Table](https://github.com/rotimi2020/nhanes-diabetes-analysis-prediction/blob/main/excel_project/report_screenshot/pivot_table.png) | ![Dashboard](https://github.com/rotimi2020/nhanes-diabetes-analysis-prediction/blob/main/excel_project/report_screenshot/dashboard.PNG) |
 
 > You can view all screenshots in the `report_screenshot` folder for a complete visual overview of the project.
 
