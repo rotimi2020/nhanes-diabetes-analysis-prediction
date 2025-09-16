@@ -209,15 +209,15 @@ Each section demonstrates real-world data analysis steps, from cleaning to visua
 
 - **Raw Data**: ![data](report_screenshot/data.PNG)  
 - **Cleaned Data**: ![data_cleaned](report_screenshot/data_cleaned.PNG)  
-- **Descriptive Analysis 1**: ![descriptive_analysis](report_screenshot/descriptive_analysis.PNG)  
+- **Descriptive Analysis 1**: ![descriptive_analysis](https://github.com/rotimi2020/nhanes-diabetes-analysis-prediction/blob/main/excel_project/report_screenshot/descriptive_analysis_1.PNG) 
 - **Descriptive Analysis 2**: ![descriptive_analysis2](report_screenshot/descriptive_analysis2.PNG)  
 - **Descriptive Analysis 3**: ![descriptive_analysis3](report_screenshot/descriptive_analysis3.PNG)  
-- **Pivot Table**: ![pivot_table](report_screenshot/pivot_table.png)  
-- **Dashboard**: ![dashboard](report_screenshot/dashboard.PNG)
+- **Pivot Table**: ![pivot_table](https://github.com/rotimi2020/nhanes-diabetes-analysis-prediction/blob/main/excel_project/report_screenshot/pivot_table.PNG 
+- **Dashboard**: ![dashboard](https://github.com/rotimi2020/nhanes-diabetes-analysis-prediction/blob/main/excel_project/report_screenshot/dashboard.PNG)
 
 | Descriptive Analysis | Pivot Table | Dashboard |
 |-------------------|-----------------------|----------------------|
-| ![Descriptive Analysis](https://github.com/rotimi2020/nhanes-diabetes-analysis-prediction/blob/main/excel_project/report_screenshot/descriptive_analysis.PNG) | ![Pivot Table](https://github.com/rotimi2020/nhanes-diabetes-analysis-prediction/blob/main/excel_project/report_screenshot/pivot_table.png) | ![Dashboard](https://github.com/rotimi2020/nhanes-diabetes-analysis-prediction/blob/main/excel_project/report_screenshot/dashboard.PNG) |
+| ![Descriptive Analysis](https://github.com/rotimi2020/nhanes-diabetes-analysis-prediction/blob/main/excel_project/report_screenshot/descriptive_analysis_1.PNG) | ![Pivot Table](https://github.com/rotimi2020/nhanes-diabetes-analysis-prediction/blob/main/excel_project/report_screenshot/pivot_table.PNG) | ![Dashboard](https://github.com/rotimi2020/nhanes-diabetes-analysis-prediction/blob/main/excel_project/report_screenshot/dashboard.PNG) |
 
 > You can view all screenshots in the `report_screenshot` folder for a complete visual overview of the project.
 
