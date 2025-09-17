@@ -193,23 +193,27 @@ Core NHANES files included in this project:
 
 ## Excel Diabetes Analysis Overview
 
-This section provides a quick look at the **Excel workflow** used in the **Diabetes Analysis Project**.
+This section provides a overview of the **Excel workflow** used in the **Diabetes Analysis Project**.
 
-The project workflow is organized into:
+You can also download the Excel file (**Microsoft Excel Macro-Enabled Worksheet**) which includes:  
 
 - **Raw Data**
 - **Cleaned Data**
 - **Descriptive Analysis**
 - **Pivot Tables**
-- **Dashboard**
+- **Report and Dashboard**
 
-Each section demonstrates real-world data analysis steps, from cleaning to visualization, entirely in Excel.
+> 👉 [Download Excel File](https://github.com/rotimi2020/nhanes-diabetes-analysis-prediction/tree/main/excel_project/processed/diabetes_analysis.xlsm)
+
 
 ### Project Screenshots
 
-- **Descriptive Analysis**: <br>![descriptive_analysis](https://github.com/rotimi2020/nhanes-diabetes-analysis-prediction/blob/main/excel_project/report_screenshot/descriptive_analysis_1.PNG) <br>
-- **Pivot Table**: <br>![pivot_table](https://github.com/rotimi2020/nhanes-diabetes-analysis-prediction/blob/main/excel_project/report_screenshot/pivot_table.PNG) <br>
-- **Dashboard**: <br>![dashboard](https://github.com/rotimi2020/nhanes-diabetes-analysis-prediction/blob/main/excel_project/report_screenshot/dashboard.PNG) <br>
+- **Descriptive Analysis**:
+- <br>![descriptive_analysis](https://github.com/rotimi2020/nhanes-diabetes-analysis-prediction/blob/main/excel_project/report_screenshot/descriptive_analysis_1.PNG) <br>
+- **Pivot Table**:
+- <br>![pivot_table](https://github.com/rotimi2020/nhanes-diabetes-analysis-prediction/blob/main/excel_project/report_screenshot/pivot_table.PNG) <br>
+- **Dashboard**:
+- <br>![dashboard](https://github.com/rotimi2020/nhanes-diabetes-analysis-prediction/blob/main/excel_project/report_screenshot/dashboard.PNG) <br>
 
 
 > You can view all screenshots in the **[report_screenshot](https://github.com/rotimi2020/nhanes-diabetes-analysis-prediction/tree/main/excel_project/report_screenshot)** folder for a complete visual overview of the project.
