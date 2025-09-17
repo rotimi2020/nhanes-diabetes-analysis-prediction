@@ -209,11 +209,11 @@ You can also download the Excel file (**Microsoft Excel Macro-Enabled Worksheet*
 ### Project Screenshots
 
 - **Descriptive Analysis**:
-- <br>![descriptive_analysis](https://github.com/rotimi2020/nhanes-diabetes-analysis-prediction/blob/main/excel_project/report_screenshot/descriptive_analysis_1.PNG) <br>
+ <br>![descriptive_analysis](https://github.com/rotimi2020/nhanes-diabetes-analysis-prediction/blob/main/excel_project/report_screenshot/descriptive_analysis_1.PNG) <br>
 - **Pivot Table**:
-- <br>![pivot_table](https://github.com/rotimi2020/nhanes-diabetes-analysis-prediction/blob/main/excel_project/report_screenshot/pivot_table.PNG) <br>
+ <br>![pivot_table](https://github.com/rotimi2020/nhanes-diabetes-analysis-prediction/blob/main/excel_project/report_screenshot/pivot_table.PNG) <br>
 - **Dashboard**:
-- <br>![dashboard](https://github.com/rotimi2020/nhanes-diabetes-analysis-prediction/blob/main/excel_project/report_screenshot/dashboard.PNG) <br>
+ <br>![dashboard](https://github.com/rotimi2020/nhanes-diabetes-analysis-prediction/blob/main/excel_project/report_screenshot/dashboard.PNG) <br>
 
 
 > You can view all screenshots in the **[report_screenshot](https://github.com/rotimi2020/nhanes-diabetes-analysis-prediction/tree/main/excel_project/report_screenshot)** folder for a complete visual overview of the project.
