@@ -216,7 +216,10 @@ You can also download the Excel file (**Microsoft Excel Macro-Enabled Worksheet*
  <br>![dashboard](https://github.com/rotimi2020/nhanes-diabetes-analysis-prediction/blob/main/excel_project/report_screenshot/dashboard.PNG) <br>
 
 
-> You can view all screenshots in the **[report_screenshot](https://github.com/rotimi2020/nhanes-diabetes-analysis-prediction/tree/main/excel_project/report_screenshot)** folder for a complete visual overview of the project.
+> 👉 You can view all screenshots in the **[report_screenshot](https://github.com/rotimi2020/nhanes-diabetes-analysis-prediction/tree/main/excel_project/report_screenshot)** folder for a complete visual overview of the project.
+
+> 👉 You can also view all **raw, merged, and processed CSV datasets** in the [data](https://github.com/rotimi2020/nhanes-diabetes-analysis-prediction/tree/main/data) folder for a complete overview of the project.
+
 
 
 ---
