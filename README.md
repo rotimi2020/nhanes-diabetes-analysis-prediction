@@ -234,7 +234,7 @@ This project leverages **Python** and **Jupyter Notebook** for in-depth analysis
 - Perform initial statistical validation and sanity checks on clinical measures such as glucose, BMI, blood pressure, and triglycerides  
 - Visualize key patterns in diabetes prevalence, risk factors, and relationships between demographic and clinical variables  
 
-Python enabled a smooth and efficient transformation pipeline that prepared the cleaned dataset (`nhanes_analysis.csv`) for visualization in Power BI. It supported logical consistency checks and helped validate the relationships between health indicators, demographics, and diabetes status before dashboard development.
+Python enabled a smooth and efficient transformation pipeline that prepared the cleaned dataset [`nhanes_analysis.csv`](https://github.com/rotimi2020/nhanes-diabetes-analysis-prediction/tree/main/data/processed) for visualization in Power BI. It supported logical consistency checks and helped validate the relationships between health indicators, demographics, and diabetes status before dashboard development.
 
 ---
 
