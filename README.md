@@ -234,7 +234,7 @@ Python enabled a smooth and efficient transformation pipeline that prepared the 
 
 ### Python Data Cleaning and Preparation
 
-The script `diabetes_analysis.ipynb` is a Python notebook developed to analyze and explore the **NHANES Diabetes** dataset.  
+The script `nhanes_diabetes_analysis.ipynb` is a Python notebook developed to analyze and explore the **NHANES Diabetes** dataset.  
 The data was sourced from multiple NHANES tables and merged into a unified dataset for analysis.
 
 Key steps in the notebook include:
@@ -256,14 +256,13 @@ This notebook acts as a solid base for generating insights and building visual d
 
 ---
 
-## Python Code Overview: diabetes_analysis.ipynb & diabetes_ml.ipynb
+## Python Code Overview: nhanes_diabetes_analysis.ipynb & nhanes_diabetes_prediction.ipynb
 > 📌 This section shows all core data loading, cleaning, merging, KPI preparation, and machine learning code used in the two notebooks:  
-> - `diabetes_analysis.ipynb` — for exploratory data analysis and visualization  
-> - `diabetes_ml.ipynb` — for predictive modeling and ML tasks  
+> - `nhanes_diabetes_analysis.ipynb` — for exploratory data analysis and visualization  
+> - `nhanes_diabetes_prediction.ipynb` — for predictive modeling and ML tasks  
 >
 > For the complete notebooks with full analysis, visualizations, and machine learning workflows, view the original files:  
-> 👉 [diabetes_analysis.ipynb](path-to-notebook)  
-> 👉 [diabetes_ml.ipynb](path-to-notebook)  
+> 👉 [Download Notebook](https://github.com/rotimi2020/nhanes-diabetes-analysis-prediction/tree/main/notebooks)  
 >
 > ⚠️ Note: The code below represents only a part and section of the full notebooks.
 
