@@ -843,8 +843,8 @@ To set up the project environment on your local machine, follow these steps:
 ### ✅ Step 1: Clone the Repository
 
 ```bash
-git clone https://github.com/rotimi2020/Data-Analyst-Portfolio.git
-cd Data-Analyst-Portfolio/Diabetes_Analysis
+git clone https://github.com/rotimi2020/nhanes-diabetes-analysis-prediction.git
+cd nhanes-diabetes-analysis-prediction/Diabetes_Analysis
 
 ```
 
