@@ -782,7 +782,59 @@ IF(
 
 
 ---
+### 📋 Project Overview: Diabetes Risk Assessment Suite
 
+🔗 **Live App:** [nhanes-diabetes.streamlit.app](https://nhanes-diabetes.streamlit.app/)
+
+I built this diabetes risk assessment app because I wanted to make healthcare data feel less intimidating and more actionable. What started as an analysis project grew into a full platform where anyone can explore data, spot patterns, and even get personalized risk predictions — all in one place.  
+
+<div align="center">
+  
+| Explore the Data | Get Personalized Insights |
+|:----------------:|:-------------------------:|
+| ![Dashboard](https://via.placeholder.com/400x250.png?text=Data+Exploration) | ![Prediction](https://via.placeholder.com/400x250.png?text=Risk+Assessment) |
+| *Interactive charts and filters to explore trends* | *Risk assessment powered by a trained ML model* |
+
+</div>
+
+---
+
+### ✨ What Makes This Project Stand Out
+
+- **End-to-End Build:** Took raw NHANES health survey data → cleaned, engineered, modeled, and deployed  
+- **Smart Predictions:** Not just “yes/no” but nuanced risk scores, closer to how clinicians think  
+- **Clinical Design:** Dual thresholds (70% / 90%) that mimic real-world medical decision-making  
+- **Modern & Flexible:** The app looks and feels current, with a left-hand sidebar to update datasets, add new records, and keep the analysis relevant year after year  
+- **Accessible:** Anyone can log on and use it — no coding or setup needed  
+
+---
+
+### 🛠️ Under the Hood
+
+**Making the Data Useful**  
+- Cleaned and preprocessed raw NHANES records  
+- Built meaningful features that improve prediction quality  
+- Explored correlations and trends to guide model design  
+
+**Training the Model**  
+- Chose **LightGBM**, great for structured healthcare data  
+- Tuned hyperparameters for accuracy without overfitting  
+- Kept interpretability in mind so results aren’t a black box  
+
+**Building the Experience**  
+- Developed the interface with **Streamlit**, keeping it responsive and intuitive  
+- Added **interactive visualizations** for hands-on data exploration  
+- Sidebar controls let users filter data, upload new records, or refresh the analysis — so it stays useful over time  
+
+---
+
+### 🎯 Why It Matters
+
+This isn’t just a demo — it’s a working healthcare tool. It shows that I can take a project from messy raw data → modeling → polished application that real people can use. The fact that the app can evolve with new data makes it future-proof, not just a static portfolio piece.  
+
+*For me, this project is proof that data science isn’t just about numbers — it’s about building tools that make a difference in people’s understanding of their health.*  
+
+---
 
 <h2 id="installation"> ⚙️ Installation </h2>
 
