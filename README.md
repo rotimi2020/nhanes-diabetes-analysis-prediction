@@ -844,7 +844,7 @@ To set up the project environment on your local machine, follow these steps:
 
 ```bash
 git clone https://github.com/rotimi2020/nhanes-diabetes-analysis-prediction.git
-cd nhanes-diabetes-analysis-prediction/Diabetes_Analysis
+cd nhanes-diabetes-analysis-prediction
 
 ```
 
