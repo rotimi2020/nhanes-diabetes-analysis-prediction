@@ -782,7 +782,7 @@ IF(
 
 
 ---
-### 📋 Project Overview: Diabetes Risk Assessment Suite
+### 📋 Project Overview: Diabetes Risk Assessment App
 
 🔗 **Live App:** [nhanes-diabetes.streamlit.app](https://nhanes-diabetes.streamlit.app/)
 
