@@ -792,7 +792,7 @@ I built this diabetes risk assessment app because I wanted to make healthcare da
   
 | Explore the Data | Get Personalized Insights |
 |:----------------:|:-------------------------:|
-| ![Visualization](https://via.placeholder.com/400x250.png?text=Data+Exploration) | ![Prediction](https://via.placeholder.com/400x250.png?text=Risk+Assessment) |
+| ![Visualization](https://github.com/rotimi2020/nhanes-diabetes-analysis-prediction/blob/main/diabetes_streamlit_app/app_screenshots/data_visualization.PNG) | ![Prediction](https://github.com/rotimi2020/nhanes-diabetes-analysis-prediction/blob/main/diabetes_streamlit_app/app_screenshots/prediction.PNG) |
 | *Interactive charts and filters to explore trends* | *Risk assessment powered by a trained ML model* |
 
 </div>
