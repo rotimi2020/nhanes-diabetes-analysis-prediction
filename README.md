@@ -91,7 +91,7 @@ I focused on core indicators like **glucose, HbA1c, BMI, and demographics**, lea
   - [📊 Visual Types Summary](#visual-types-summary--diabetes-power-bi-dashboard)
   - [📊 Diabetes Power BI Report Previews](#diabetes-power-bi-report-previews)
   - [📊 Download the Full Power BI Report](#download-the-full-power-bi-report)
-- [📋 Diabetes Risk Assessment Streamlit App](#diabetes_risk_assessment_streamlit_app)
+- [📋 Diabetes Risk Assessment Streamlit App](#diabetes-risk-assessment-streamlit-app)
   - [🔗 Live App](#live-app)
   - [📸 App Screenshots](#app-screenshots)
   - [✨ Features & Highlights](#features--highlights)
