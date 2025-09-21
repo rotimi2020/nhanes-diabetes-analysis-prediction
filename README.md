@@ -73,7 +73,7 @@ I didn’t use any medication-related columns in this project. The focus stayed 
   - [📸 Project Screenshots](#project-screenshots)
 - [🐍 Python Overview](#python-overview)
   - [🐍 Python Data Cleaning and Preparation](#python-data-cleaning-and-preparation)
-  - [🐍 Python Code Overview: notebooks](#python-code-overview-diabetes_analysisipynb--diabetes_mlipynb)
+  - [🐍 Python Code Overview: notebooks](#python-code-overview-nhanes-diabetes-analysisipynb--nhanes-diabetes-predictionipynb)
   - [🔍 Exploratory Data Analysis (EDA)](#exploratory-data-analysis-eda)
   - [📈 Data Aggregation & Summary](#data-aggregation--summary)
   - [📊 Python Visualizations](#python-visualizations)
@@ -87,12 +87,19 @@ I didn’t use any medication-related columns in this project. The focus stayed 
   - [📊 Visual Types Summary](#visual-types-summary--diabetes-power-bi-dashboard)
   - [📊 Diabetes Power BI Report Previews](#diabetes-power-bi-report-previews)
   - [📊 Download the Full Power BI Report](#download-the-full-power-bi-report)
+- [🩺 Diabetes Risk Assessment Streamlit App](#diabetes-risk-assessment-app)
+  - [🔗 Live App](#live-app)
+  - [📸 App Screenshots](#app-screenshots)
+  - [✨ Features & Highlights](#features--highlights)
+  - [🛠️ Under the Hood](#under-the-hood)
+  - [🎯 Why It Matters](#why-it-matters)
 - [🧮 DAX Overview](#dax-overview)
   - [🧮 Key DAX](#key-dax)
   - [🧮 Key Calculated Columns](#key-calculated-columns)
 - [📘 Visuals & Dashboard Summary](#visuals--dashboard-summary)
 - [⚙️ Installation](#installation)
 - [🙋‍♂️ Author](#author)
+
 
 ---
 
