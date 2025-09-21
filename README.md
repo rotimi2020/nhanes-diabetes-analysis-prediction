@@ -878,7 +878,12 @@ pip install -r requirements.txt
 🌐 Portfolio Website: [rotimi2020.github.io](https://rotimi2020.github.io)
 
 
-> 📌 **Note:** This **Diabetes Analysis** project is part of my Data Analytics Portfolio. It demonstrates skills in **data wrangling, statistical analysis, and business intelligence** using the NHANES dataset. Tools used include **Python (for analysis)** and **Power BI (for dashboarding and DAX modeling)**.
+> 📌 **Note:** This **Diabetes Analysis** project is part of my Data Analytics Portfolio.  
+It demonstrates skills in **data wrangling, statistical analysis, machine learning, and business intelligence** using the NHANES dataset.  
+Tools used include **Python (for analysis and modeling)**, **Excel (for validation and pivot analysis)**, **Streamlit (for interactive web app)**, and **Power BI (for dashboarding and DAX modeling)**.  
+
+---
+
 
 
 ---
