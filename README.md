@@ -1,30 +1,32 @@
-# 🩺 Diabetes Analysis Using Python, Excel & Power BI  
+# 🩺 Diabetes Analysis Using Python, Excel, Power BI & Streamlit
 
-This project focuses on analyzing **diabetes data** from NHANES using a mix of **Python**, **Excel**, and **Power BI**.  
-The goal was simple: clean the raw data, explore it, and build a dashboard that shows real insights on diabetes trends.  
+This project explores **diabetes data** from NHANES using **Python**, **Excel**, **Power BI**, and a **Streamlit web app**.  
+The goal was simple: clean the data, analyze it, and create interactive dashboards and an app to show real insights into diabetes trends.  
 
-I didn’t use any medication-related columns in this project. The focus stayed on core diabetes indicators like glucose, HbA1c, BMI, and demographics. In the future, I might extend the work to include medication effects, but that was beyond the scope here.   
+I focused on core indicators like **glucose, HbA1c, BMI, and demographics**, leaving out medication-related columns for now. Future work could include medications for deeper insights.  
 
-## Key Steps  
+## Key Steps
 
 - **Data Cleaning, Transformation & Imputation**  
-  - I started by cleaning and preparing the dataset using **Python (Pandas, NumPy, Scikit-learn)** and some **Excel** for quick checks. This involved fixing data types, removing duplicates, and making sure missing values didn’t mess up the analysis.  
-  - For **numeric features**, I used **Iterative Imputer**, which does a better job than just filling with the mean because it estimates values based on other related features.  
-  - **Categorical features** were handled by filling missing values with the **mode**, so nothing important was lost.  
-  - Excel helped a lot for quick sanity checks and pivot tables to make sure everything looked reasonable.  
+  - Cleaned and prepped the dataset using **Python (Pandas, NumPy, Scikit-learn)** and some **Excel** checks.  
+  - For **numeric features**, used **Iterative Imputer** to estimate missing values based on related features.  
+  - **Categorical features** were filled with the **mode**.  
+  - Excel helped with sanity checks and quick pivot tables.
 
 - **Exploratory Data Analysis (EDA)**  
-  - I dug into patterns in blood sugar, BMI, and age to see what stood out.  
-  - I also checked how diabetes prevalence changes by **gender** and different **age groups**, which helped spot trends and potential risk factors.  
+  - Analyzed patterns in blood sugar, BMI, and age.  
+  - Checked prevalence by **gender** and **age groups**.  
+  - Generated charts for all key insights, which are used in the Streamlit app.
 
 - **Feature Engineering**  
-  - Created new variables like **diabetes status** from glucose/HbA1c readings and grouped ages into categories to make comparisons easier.  
-  - This was done alongside cleaning and imputation so that the dataset was ready for deeper analysis or any future modeling.  
+  - Created variables like **diabetes status** from glucose/HbA1c readings.  
+  - Grouped ages into categories for easier comparison.  
+  - Prepared the dataset for modeling or further analysis.
 
-- **Dashboard Development**  
-  - Built interactive visuals in **Power BI** to make the data easy to explore.  
-  - Used **DAX** to calculate things like prevalence rates, average BMI, and glucose trends over time.  
-  - The final dashboard shows overall diabetes distribution, highlights key risk factors, and makes it easy to see patterns at a glance.
+- **Dashboard & App Development**  
+  - **Power BI** dashboards with interactive visuals and DAX calculations to show trends and risk factors.  
+  - **Streamlit app** combining EDA visualizations and a predictive model for diabetes risk, making the analysis interactive and easy to explore.
+
 
 
 
