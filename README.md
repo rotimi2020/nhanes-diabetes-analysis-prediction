@@ -32,25 +32,26 @@ I didn’t use any medication-related columns in this project. The focus stayed 
 
 ## Project Directory Structure
 
+| Folder / File                                | Description                                                                 |
+| -------------------------------------------- | --------------------------------------------------------------------------- |
+| **`charts/`**                                | All visualizations from exploratory data analysis (EDA)                     |
+| **`data/`**                                  | Cleaned dataset used for analysis and dashboard                              |
+| **`dax/`**                                   | DAX measures and calculated columns for Power BI                             |
+| ├── `dax_formulas.txt`                       | List of all DAX formulas used                                               |
+| **`excel_project/`**                         | Excel-based analysis and pivot dashboards                                    |
+| **`notebooks/`**                             | Jupyter notebooks for cleaning, EDA, and modeling                            |
+| ├── `diabetes_analysis.ipynb`                | Data cleaning, preprocessing, and exploratory analysis                       |
+| └── `diabetes_prediction.ipynb`              | Modeling and prediction of diabetes outcomes                                 |
+| **`powerbi/`**                               | Power BI dashboards                                                          |
+| └── `diabetes_analysis.pbix`                 | Interactive Power BI report                                                  |
+| **`reports/`**                               | Final summary exports                                                        |
+| └── `diabetes_analysis.pdf`                  | PDF export of main findings                                                  |
+| **`report_screenshots/`**                    | Screenshots of Power BI visuals                                              |
+| ├── `clinical_indicators_report.PNG`         | Clinical indicators (glucose, BMI, HbA1c)                                    |
+| ├── `demographics_&_risk_Factors_report.PNG` | Demographics and risk factor breakdown                                       |
+| └── `diabetes_overview_report.PNG`           | Overall summary of diabetes prevalence and trends                            |
+| **`requirements.txt`**                       | Python dependencies for notebooks                                            |
 
-| Folder / File                                | Description                                              |
-| -------------------------------------------- | -------------------------------------------------------- |
-| **`data/`**                                  | Cleaned dataset used for analysis and dashboard          |
-| **`dax/`**                                   | DAX measures and calculated columns for Power BI         |
-| ├── `dax_formulas.txt`                       | List of all DAX formulas used                            |
-| **`excel_project/`**                         | Excel-based analysis and pivot dashboards                |
-| **`notebooks/`**                             | Jupyter notebooks for cleaning and EDA                   |
-| ├── `diabetes_analysis.ipynb`                | Data cleaning, preprocessing, and exploratory analysis   |
-| └── `diabetes_prediction.ipynb`              | Modeling and prediction of diabetes outcomes             |
-| **`powerbi/`**                               | Power BI dashboards                                      |
-| └── `diabetes_analysis.pbix`                 | Interactive Power BI report                              |
-| **`reports/`**                               | Final summary exports                                    |
-| └── `diabetes_analysis.pdf`                  | PDF export of main findings                              |
-| **`report_screenshots/`**                    | Screenshots of Power BI visuals                          |
-| ├── `clinical_indicators_report.PNG`                | Clinical indicators (glucose, BMI, HbA1c)                |
-| ├── `demographics_&_risk_Factors_report.PNG`| Demographics and risk factor breakdown                   |
-| └── `diabetes_overview_report.PNG`          | Overall summary of diabetes prevalence and trends        |
-| **`requirements.txt`**                       | Python dependencies for notebooks                        |
 
 
 
