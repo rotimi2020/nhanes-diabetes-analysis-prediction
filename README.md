@@ -873,8 +873,10 @@ pip install -r requirements.txt
 **Rotimi Sheriff Omosewo**  
 📧 Email: [omoseworotimi@gmail.com](mailto:omoseworotimi@gmail.com)  
 📞 Contact: +234 903 441 1444  
-🔗 LinkedIn: [linkedin.com/in/rotimi-sheriff-omosewo-939a806b](https://www.linkedin.com/in/rotimi-sheriff-omosewo-939a806b)  
-📁 Project GitHub: [github.com/rotimi2020/Data-Analyst-Portfolio](https://github.com/rotimi2020/Data-Analyst-Portfolio)  
+🔗 LinkedIn: [Rotimi Sheriff Omosewo](https://www.linkedin.com/in/rotimi-sheriff-omosewo-939a806b)  
+📁 Project GitHub: [rotimi2020](https://github.com/rotimi2020)  
+🌐 Portfolio Website: [rotimi2020.github.io](https://rotimi2020.github.io)
+
 
 > 📌 **Note:** This **Diabetes Analysis** project is part of my Data Analytics Portfolio. It demonstrates skills in **data wrangling, statistical analysis, and business intelligence** using the NHANES dataset. Tools used include **Python (for analysis)** and **Power BI (for dashboarding and DAX modeling)**.
 
