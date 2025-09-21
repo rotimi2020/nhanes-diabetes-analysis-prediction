@@ -38,6 +38,7 @@ I didn’t use any medication-related columns in this project. The focus stayed 
 | **`data/`**                                  | Cleaned dataset used for analysis and dashboard                              |
 | **`dax/`**                                   | DAX measures and calculated columns for Power BI                             |
 | ├── `dax_formulas.txt`                       | List of all DAX formulas used                                               |
+| **`diabetes_streamlit_app/`**                | Contains all files required to run the Streamlit diabetes app, including datasets, model files, and scripts |
 | **`excel_project/`**                         | Excel-based analysis and pivot dashboards                                    |
 | **`notebooks/`**                             | Jupyter notebooks for cleaning, EDA, and modeling                            |
 | ├── `diabetes_analysis.ipynb`                | Data cleaning, preprocessing, and exploratory analysis                       |
